@@ -97,7 +97,6 @@
 
 /* POSIX layer and C standard library */
 
-#define RT_LIBC_USING_TIME
 /* end of POSIX layer and C standard library */
 
 /* Network */
@@ -197,6 +196,8 @@
 #define SYSWATCH_WDT_TIMEOUT 5
 #define PKG_USING_SYSWATCH_LATEST_VERSION
 #define PKG_USING_QBOOT
+#define QBOOT_USING_PRODUCT_CODE
+#define QBOOT_PRODUCT_CODE "00010203040506070809"
 #define QBOOT_APP_PART_NAME "app"
 #define QBOOT_DOWNLOAD_PART_NAME "download"
 #define QBOOT_FACTORY_PART_NAME "factory"
@@ -205,13 +206,14 @@
 #define QBOOT_AES_KEY "0123456789ABCDEF0123456789ABCDEF"
 #define QBOOT_USING_GZIP
 #define QBOOT_USING_QUICKLZ
+#define QBOOT_USING_FASTLZ
 #define QBOOT_USING_SHELL
 #define QBOOT_SHELL_KEY_CHK_TMO 5
 #define QBOOT_USING_SYSWATCH
 #define QBOOT_USING_OTA_DOWNLOADER
 #define QBOOT_USING_PRODUCT_INFO
-#define QBOOT_PRODUCT_NAME "Qboot test device"
-#define QBOOT_PRODUCT_VER "v1.00 2020.07.22"
+#define QBOOT_PRODUCT_NAME "stm32l4r5_demo"
+#define QBOOT_PRODUCT_VER "v1.00 2020.07.28"
 #define QBOOT_PRODUCT_MCU "stm32l4r5zi"
 #define QBOOT_USING_STATUS_LED
 #define QBOOT_STATUS_LED_PIN 30
@@ -238,6 +240,8 @@
 
 /* miscellaneous packages */
 
+#define PKG_USING_FASTLZ
+#define PKG_USING_FASTLZ_V101
 #define PKG_USING_QUICKLZ
 #define QLZ_COMPRESSION_LEVEL 3
 #define PKG_USING_QUICKLZ_V101
@@ -247,6 +251,12 @@
 /* samples: kernel and components samples */
 
 /* end of samples: kernel and components samples */
+#define PKG_USING_CRCLIB
+#define CRCLIB_USING_CRC32
+#define CRC32_USING_CONST_TABLE
+#define CRC32_POLY 0xEDB88320
+#define CRC32_INIT_VAL 0xFFFFFFFF
+#define PKG_USING_CRCLIB_LATEST_VERSION
 /* end of miscellaneous packages */
 /* end of RT-Thread online packages */
 

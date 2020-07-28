@@ -30,6 +30,11 @@
   "name": "QLED"
  }, 
  {
+  "path": "/packages/misc/fastlz", 
+  "ver": "v1.0.1", 
+  "name": "FASTLZ"
+ }, 
+ {
   "path": "/packages/misc/quicklz", 
   "ver": "v1.0.1", 
   "name": "QUICKLZ"
@@ -38,5 +43,10 @@
   "path": "/packages/misc/zlib", 
   "ver": "v1.0.0", 
   "name": "ZLIB"
+ }, 
+ {
+  "path": "/packages/misc/crclib", 
+  "ver": "latest", 
+  "name": "CRCLIB"
  }
 ]
