@@ -246,7 +246,7 @@
 #define QLZ_COMPRESSION_LEVEL 3
 #define PKG_USING_QUICKLZ_V101
 #define PKG_USING_ZLIB
-#define PKG_USING_ZLIB_V100
+#define PKG_USING_ZLIB_LATEST_VERSION
 
 /* samples: kernel and components samples */
 
@@ -254,8 +254,8 @@
 #define PKG_USING_CRCLIB
 #define CRCLIB_USING_CRC32
 #define CRC32_USING_CONST_TABLE
+#define CRC32_POLY_EDB88320
 #define CRC32_POLY 0xEDB88320
-#define CRC32_INIT_VAL 0xFFFFFFFF
 #define PKG_USING_CRCLIB_LATEST_VERSION
 /* end of miscellaneous packages */
 /* end of RT-Thread online packages */

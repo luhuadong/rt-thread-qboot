@@ -41,7 +41,7 @@
  }, 
  {
   "path": "/packages/misc/zlib", 
-  "ver": "v1.0.0", 
+  "ver": "latest", 
   "name": "ZLIB"
  }, 
  {

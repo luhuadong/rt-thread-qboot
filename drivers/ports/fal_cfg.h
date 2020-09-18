@@ -28,7 +28,7 @@
 #include <rtconfig.h>
 #include <board.h>
 
-#define RT_APP_PART_ADDR            (0x08000000 + 128*1024)//app����ַ
+#define RT_APP_PART_ADDR            (0x08000000 + 128*1024)//app partition begin address
 
 #define NOR_FLASH_DEV_NAME          FAL_USING_NOR_FLASH_DEV_NAME//"norflash0"
 
